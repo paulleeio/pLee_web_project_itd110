@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Details</title>
+    <link rel="stylesheet" href="mainstyles.css"> 
+
+</head>
+<body>
+    <header class="sidenav">
+        <!-- Side navgiation bar details found on w3schools: https://www.w3schools.com/howto/howto_css_fixed_sidebar.asp-->
+         <br>
+        <a href="/index.html">Home</a><br>
+        <a href="/saber.html">Saber</a><br>
+        <a href="/saber-habits.html">Saber&apos;s Habits</a><br>
+        <a href="/cassini.html">Cassini</a><br>
+        <a href="/cassini-habits.html">Cassini&apos;s Habits</a><br>
+        <a href="/faq.html">FAQ</a><br>
+    </header>
+
+    <main>
+        <section>
+        <h1>Contact Details</h1>
+ 
+            <ul>
+                <li>Name: Paul Lee</li>
+                <li>Contact Email: <a href="mailto: pjl2599@email.vccs.edu">pjl2599@email.vccs.edu</a></li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Notes on me</h2>
+        <p>My name is Paul Lee. I am a student at <i>Northern Virginia Community College</i>. I am taking the course <a href="https://courses.vccs.edu/colleges/nova/courses/ITD110-WebPageDesignI">ITD 110</a> by <a href="https://docjulsgilliam.com/index.html">Dr. Juls Gilliam</a>. This couse is focused on teaching students the fudnamentals of website development, and design. The focus is on HTML and CSS. Course material covers core HTML elements, CSS styling, and web accessibility requirements. </p>
+        <p>I have enjoyed taking this class and plan on completing it through the Summer of 2024. So far I learned how to create and style web pages, to include adding pictures and Google-based embeds. These really open up the type of content that can be used on a webpage</p>
+        <p>I created this website about my cats as I think they are great cats that I can write about all day. They also have the benefit of not really caring too much about their personal information, and not being at a risk of identity theft. Which <i>as far as I know</i> does not affect cats.</p>
+        </section>
+
+        <section>
+            <h2>Contact Me</h2>
+            <p>To contact me use the following <b>form:</b></p>
+            
+            <div class="contactform">
+                <!--Modified form from w3schools: https://www.w3schools.com/html/html_forms.asp-->
+                <form action="#" method="POST" class="contactform">
+                  <label for="name">Your Name: </label>
+                  <input type="text" id="name" name="fullName" required placeholder ="Your name"/><br><br>
+                  <label for="email">Your Email Address:</label>
+                  <input type="email" id="email" name="email" required placeholder ="Your email" /><br><br>
+                  <label for="message">Your Message:</label><br>
+                  <textarea name="message" id="message" cols="50" rows="10" placeholder="What do you want to send me?"></textarea><br>
+          
+                  <button type="submit">Send</button>
+                </form>
+              </div>
+        </section>
+        <section>
+            <h2>Bonus Section</h2>
+            <p>Happy Cat!</p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/GeaoaA4KLi4?si=CevjGCS8uKMxW0Qx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+        </section>
+    
+    </main>
+</body>
+</html>
